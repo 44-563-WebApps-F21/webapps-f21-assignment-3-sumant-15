@@ -26,4 +26,39 @@ Assignment 3 - Basic HTML
 
 <a href="https://github.com/44-563-WebApps-F21/webapps-f21-assignment-3-sumant-15/blob/main/aboutme.html">AboutMe</a>
 
+<hr>
+<h1>Food Item Details</h1>
+<p>The table describes about the information about 4 food items like pizza,burger,salad,ice cream and the location where these 4 food items someone can buy and amount of money someone should expect to pay for the item</p>
+<table>
+<thead>
+<tr>
+<th>food item</th>
+<th>location</th>
+<th>amount of money</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pizza</td>
+<td>burger</td>
+<td>salad</td>
+<td>ice cream</td>
+</tr>
+<tr>
+<td>Englewood</td>
+<td>overland</td>
+<td>leakwood</td>
+<td>baker st</td>
+</tr>
+<tr>
+<td>10$</td>
+<td>5$</td>
+<td>4$</td>
+<td>2$</td>
+</tr>
+</tbody>
+</tr>
+</table>
+
+
 
