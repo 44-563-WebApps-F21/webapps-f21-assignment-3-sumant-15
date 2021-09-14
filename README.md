@@ -15,7 +15,7 @@ Assignment 3 - Basic HTML
 </ol>
 
 <ul>
-<li>Turn right at the 1st cross street onto Maryville Centre<li>
+<li>Turn right at the 1st cross street onto Maryville Centre</li>
 <li>Keep right at the fork, follow signs for I-64 E/US-40 E/US-61 S/S Outer Forty and merge onto S Outer Forty Rd</li>
 <li>Use the left 2 lanes to merge onto I-64 E/US-40 E/US-61 S via the ramp to St Louis</li>
 <li>Take exit 267A toward Tampa</li>
