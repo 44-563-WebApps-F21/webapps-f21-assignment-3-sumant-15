@@ -40,20 +40,22 @@ Assignment 3 - Basic HTML
 <tbody>
 <tr>
 <td>pizza</td>
-<td>burger</td>
-<td>salad</td>
-<td>ice cream</td>
-</tr>
-<tr>
 <td>Englewood</td>
-<td>overland</td>
-<td>leakwood</td>
-<td>baker st</td>
+<td>10$</td>
 </tr>
 <tr>
-<td>10$</td>
+<td>burger</td>
+<td>overland</td>
 <td>5$</td>
+</tr>
+<tr>
+<td>salad</td>
+<td>leakwood</td>
 <td>4$</td>
+</tr>
+<tr>
+<td>ice cream</td>
+<td>baker st</td>
 <td>2$</td>
 </tr>
 </tbody>
