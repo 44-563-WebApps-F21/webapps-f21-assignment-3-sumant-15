@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+        </style>
+        <title>University Information</title>
+    </head>
+    <body>
+        <h1>Sumant Chaganti</h1>
+
+        <h3>florida</h3>
+        <p>Florida is the southeasternmost U.S. state, with the Atlantic <b>on one side and the Gulf of Mexico on the other</b>.
+            It has hundreds of miles of beaches.<b>Florida is world-renowned for its beach resorts</b>, amusement parks,warm and sunny climate,
+            and nautical recreation; attractions such as Walt Disney World, the Kennedy Space Center</p>
+
+            <hr>
+<h1>Food Item Details</h1>
+<p>The table describes about the information about 4 food items like pizza,burger,salad,ice cream and the location where these 4 food items someone can buy and amount of money someone should expect to pay for the item</p>
+<table>
+<thead>
+<tr>
+<th>food item</th>
+<th>location</th>
+<th>amount of money</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pizza</td>
+<td>Englewood</td>
+<td>10$</td>
+</tr>
+<tr>
+<td>burger</td>
+<td>overland</td>
+<td>5$</td>
+</tr>
+<tr>
+<td>salad</td>
+<td>leakwood</td>
+<td>4$</td>
+</tr>
+<tr>
+<td>ice cream</td>
+<td>baker st</td>
+<td>2$</td>
+</tr>
+</tbody>
+</tr>
+</table>
+
+<hr>
+<h1>Primitive Root Algorithm</h1>
+<blockquote>
+In modular arithmetic, a number g is called a primitive root modulo n if every number coprime to n is congruent to a power of g modulo n. Mathematically, g is a primitive root modulo n if and only if for any integer a such that gcd(a,n)=1, there exists an integer k such that:
+gk≡a(modn).k is then called the index or discrete logarithm of a to the base g modulo n. g is also called the generator of the multiplicative group of integers modulo n.
+</blockquote>
+<a href="https://mathworld.wolfram.com/PrimitiveRoot.html"></a>
+
+<pre>
+int powmod (int a, int b, int p) {
+    int res = 1;
+    while (b)
+        if (b & 1)
+            res = int (res * 1ll * a % p),  --b;
+        else
+            a = int (a * 1ll * a % p),  b >>= 1;
+    return res;
+}
+
+int generator (int p) {
+    vector<int> fact;
+    int phi = p-1,  n = phi;
+    for (int i=2; i*i<=n; ++i)
+        if (n % i == 0) {
+            fact.push_back (i);
+            while (n % i == 0)
+                n /= i;
+        }
+    if (n > 1)
+        fact.push_back (n);
+
+    return -1;
+}
+</pre>
+    </body>
+</html>
